@@ -9,10 +9,10 @@ describe("Loader", () => {
     component = shallow(<Loader />);
   });
 
-  it('test render for static Loader', () => {
-    const wrapper = component.find('Fragment');
-    expect(wrapper.find('div')).toBeDefined();
-    expect(wrapper.find('div')).toHaveLength(3);
+  it("test render for static Loader", () => {
+    const wrapper = component.find("Fragment");
+    expect(wrapper.find("div")).toBeDefined();
+    expect(wrapper.find("div")).toHaveLength(3);
     expect(
       wrapper.contains(
         <React.Fragment>
